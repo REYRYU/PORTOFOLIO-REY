@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio Nesya Usman</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <audio id="musik" loop>
+    <source src="treat.mp3" type="audio/mpeg">
+</audio>
+
+<button class="music-btn" onclick="toggleMusic()">🎵 Musik</button>
+
+<script>
+function toggleMusic() {
+    const musik = document.getElementById("musik");
+
+    if (musik.paused) {
+        musik.play();
+    } else {
+        musik.pause();
+    }
+}
+</script>
+    <header>
+        <nav>
+            <h2>PORTO<span>FOLIO.</span></h2>
+            <div><a href="index.html">Home</a><a href="index.html#anggota">Nama Kelompok</a></div>
+        </nav>
+    </header>
+    <section class="profile"><img src="images/nesa.jpg" alt="Foto aditia ramadhan inaku">
+        <div class="profile-info"><small>PORTOFOLIO PRIBADI</small>
+            <h1>Halo, Saya <span>Nesya Usman</span></h1>
+            <p>Saya mahasiswa Fakultas Ilmu Komputer, Program Studi Informatika. Saya tertarik pada teknologi,
+                pemrograman, dan pengembangan website.</p>
+            <h3>Data Diri</h3>
+            <p>Nama: Nesya Usman<br>NIM: K5525011<br>Program Studi: Informatika<br>Fakultas: Ilmu Komputer</p>
+            <h3>Keterampilan</h3>
+            <p>HTML, CSS, Pemrograman, dan Desain Website</p><a class="btn" href="index.html">Kembali ke Home</a>
+        </div>
+    </section>
+    <footer>© 2026 Desain Web</footer>
+</body>
+
+</html>

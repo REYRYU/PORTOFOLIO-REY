@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio Reynaldi Arsyad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <audio id="musik" loop>
+    <source src="loser.mp3" type="audio/mpeg">
+</audio>
+
+<button class="music-btn" onclick="toggleMusic()">🎵 Musik</button>
+
+<script>
+function toggleMusic() {
+    const musik = document.getElementById("musik");
+
+    if (musik.paused) {
+        musik.play();
+    } else {
+        musik.pause();
+    }
+}
+</script>
+    <header>
+        <nav>
+            <h2>PORTO<span>FOLIO.</span></h2>
+            <div><a href="index.html">Home</a><a href="index.html#anggota">Nama Kelompok</a></div>
+        </nav>
+    </header>
+<section class="profile">
+    
+    <div class="profile-video">
+        <video controls>
+            <source src="jj.mp4" type="video/mp4">
+            Browser kamu tidak mendukung video.
+        </video>
+    </div>
+
+    <div class="profile-info">
+        <h1>Halo, Saya</h1>
+
+        <p>
+            Saya mahasiswa Fakultas Ilmu Komputer, Program Studi Informatika.
+            Saya tertarik pada teknologi, pemrograman, dan pengembangan website.
+        </p>
+
+        <h3>Data Diri</h3>
+        <p>Nama: Reynaldi Arsyad</p>
+        <p>Umur: 19</p>
+        <p>NIM: K5525020</p>
+        <p>Program Studi: Informatika</p>
+        <p>Fakultas: Ilmu Komputer</p>
+
+        <h3>Keterampilan</h3>
+        <p>HTML, CSS, Pemrograman, dan Desain Website</p>
+
+        <h3>Kontak Saya</h3>
+        <p>Tiktok: @rey.arsyad</p>
+        <p>Instagram: @rey.arsyad</p>
+        <p>HP: 0822-9336-2427</p>
+
+        <a class="btn" href="index.html">Kembali ke Home</a>
+    </div>
+
+</section>
+
+    <footer>© 2026 Desain Web</footer>
+</body>
+
+</html>
